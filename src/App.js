@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Teste from './Teste/Teste.component';
 import UserCard from './UserCard/UserCard';
+import Line from './Line/Line';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         </p>
         <Teste />
         <UserCard />
+
+        <Line text="Lorem ipsum dolor sit amet."/>
       </header>
     </div>
   );
