@@ -1,0 +1,37 @@
+.light-switch {
+    position: relative;
+    display: flex;
+    height: 500px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.light-switch::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+}
+
+.btn-light-switch {
+    display: inline-block;
+    height: 250px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-light-switch--up {
+    background-color: green;
+    transform: scaleY(1.5) rotateZ(25deg);
+}
+
+.btn-light-switch--down {
+    background-color: red;
+    transform: scaleY(1.5) rotateZ(-25deg);
+}
